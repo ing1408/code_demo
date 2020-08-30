@@ -1,0 +1,26 @@
+{% load i18n %}
+
+<style>
+p.slide {display: inline;}
+
+a.extensible-header-section {display: inline;}
+a.badge:hover {
+  background-color: darkgreen;
+}
+</style>
+
+<p class="slide">
+    <a href="javascript:divHidden();" id="btnhref" class="badge" title="{% trans 'Hide alarm numbers' %}" > >> &nbsp </a>
+</p>
+<span class="test-header" id='alarm_show' onclick ="window.location.href='/horizon/others';">
+{% trans "Error:" %}
+<span id = 'error' class="badge" style="background-color:red;color: white">{{ message_error }}  </span>
+{% trans "Warning:" %}
+<span id='warning' class="badge" style="background-color:orange; color: white">{{ message_warning }}  </span>
+{% trans "Info:" %}
+<span id='info' class="badge" style="background-color:yellow; color: black">{{ message_info }}  </span>
+{% trans "Debug:" %}
+<span id='debug' class="badge" style="background-color:blue; color: white">{{ message_debug }}  </span>
+</span>
+
+
