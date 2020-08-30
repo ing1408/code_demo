@@ -32,7 +32,7 @@ Date：
 
 # NOTE:  
 
-1. *update.txt* -- Contains update information for all historical versions of LPCloud Dashboard  
+1. To Check coding examples, please go straight to Env/openstack_dashboard/local/log_to_db.py  
 
 2. *DOC* -- Contains requirements for development and deployment, please refer to 说明文档.docx or 说明文档.txt. As for testing, please refer to XXX_dashboard测试报告.docx  
 
